@@ -9,7 +9,7 @@ var sum = 0;
 
 function result1()
 {
-    if (Object.keys(salaries).length == 0)
+    if (Object.keys(salaries).length === 0)
     {
         console.log(0);
     }
