@@ -4,23 +4,24 @@
 <head>
     <meta charset="utf-8">
 	<title>Learn.js</title>
+	<script src="./task4.js"></script>
 
 </head>
 
 <body>
 	<p> Phones availability </p>
 	<label for="manufacturer">Manufacturer: </label>
-	<select id="manufacturer">
-		<option>Please select</option>
-		<option>Apple</option>
-		<option>Samsung</option>
-		<option>Nokia</option>
-		<option>[No data found]</option>
+	<select id="manufacturer" onchange="showModels()">
+		<option value="default">Please select</option>
+		<option value="apple">Apple</option>
+		<option value="samsung">Samsung</option>
+		<option value="nokia">Nokia</option>
+		<option value="nodata">[No data found]</option>
 	</select>
 	<label for="model">Model: </label>
 	<select id="model">
 	</select>
-	<button>Generate report</button>
+	<button onclick="generateReport()">Generate report</button>
 	<br>
 	<br>
 	<br>
