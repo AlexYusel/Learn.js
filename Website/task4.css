@@ -1,0 +1,35 @@
+body {
+	background-color: Azure;
+}
+
+select {
+	border: 1px solid LightSlateGray;
+	font: Sans-serif;
+}
+
+button {
+	background-color: LightSteelBlue;
+	font: Sans-serif;
+}
+
+.result {
+	font: bold 200% Monospace;
+	color: Red;
+	text-align: center;
+}
+
+.yes {
+	font: bold 110% Monospace;
+	color: SeaGreen;
+}
+
+.no {
+	font: bold 110% Monospace;
+	color: LightSteelBlue;
+}
+
+table, tr, td {
+	border: 1px solid LightSlateGray;
+	border-spacing: 0px;
+	text-align: center;
+}
